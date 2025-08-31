@@ -1,6 +1,6 @@
 # StudentManager
 
-A simple console-based student management system in C++ for practicing object-oriented programming concepts.
+A simple console-based student management system in C++ for practicing object-oriented programming concepts...
 
 
 ## Features
