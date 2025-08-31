@@ -41,7 +41,7 @@ Enter GPA: 8.5
 0. Exit
 1
 Enter ID: S02
-Enter Name: Lan
+Enter Name: Thuy
 Enter Age: 21
 Enter GPA: 9.0
 
@@ -54,7 +54,7 @@ Enter GPA: 9.0
 0. Exit
 2
 ID: S01 | Name: Minh | Age: 20 | GPA: 8.5
-ID: S02 | Name: Lan  | Age: 21 | GPA: 9.0
+ID: S02 | Name: Thuy | Age: 21 | GPA: 9.0
 
 ---Menu---
 1. Add student
@@ -76,7 +76,7 @@ Found -> ID: S01 | Name: Minh | Age: 20 | GPA: 8.5
 0. Exit
 5
 After sorting by GPA:
-ID: S02 | Name: Lan  | Age: 21 | GPA: 9.0
+ID: S02 | Name: Thuy  | Age: 21 | GPA: 9.0
 ID: S01 | Name: Minh | Age: 20 | GPA: 8.5
 
 ---Menu---
