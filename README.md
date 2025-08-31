@@ -9,7 +9,7 @@ A simple console-based student management system in C++ for practicing object-or
 - Find Student by ID
 - Remove Student by ID
 - Sort by GPA
-- 
+  
 ## Requirements
 - g++ (GNU C++ compiler)
 ## Build & Run
