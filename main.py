@@ -15,7 +15,7 @@ def add_Student():
     )
     conn.commit()
     conn.close()
-    print("✅ Student ADDED!!!")
+    print("Student ADDED!!!")
 
 
 def view_Students():
@@ -25,7 +25,7 @@ def view_Students():
     rows = cursor.fetchall()
     conn.close()
 
-    print("\n📋 Student List:")
+    print("\nStudent List:")
     for row in rows:
         print(row)
 
@@ -56,7 +56,7 @@ def delete_Student():
     )
     conn.commit()
     conn.close()
-    print("🗑️ Student DELETED!!!")
+    print("Student DELETED!!!")
 
 
 def main():
@@ -79,7 +79,7 @@ def main():
         elif choice == "4":
             delete_Student()
         elif choice == "5":
-            print("Goodbye 👋")
+            print("Goodbye")
             break
         else:
             print("Invalid choice, try again!")
