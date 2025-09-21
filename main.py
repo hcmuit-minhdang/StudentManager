@@ -3,7 +3,7 @@ from db import get_connection
 def add_Student():
     StudentNumber = input("Enter StudentNumber: ")
     name = input("Enter Student's Name: ")
-    birthday = input("Enter Student's Birthday: ")
+    birthday = input("Enter Student's Birthday (yyyy-mm-dd): ")
     student_class = input("Enter Student's class: ")
     GPA = float(input("Enter GPA: "))
 
@@ -25,9 +25,9 @@ def view_Students():
     rows = cursor.fetchall()
     conn.close()
 
-    print("\nStudent List:")
+    print("\n📋 Student List:")
     for row in rows:
-        print(row)
+        print(f"StudentNumber: {row[1]}, Name: {row[2]}, Birthday: {row[3]}, Class: {row[4]}, GPA: {row[5]}")
 
 
 def update_Student():
@@ -42,7 +42,7 @@ def update_Student():
     )
     conn.commit()
     conn.close()
-    print("✏️ Student UPDATED!!!")
+    print("Student UPDATED!!!")
 
 
 def delete_Student():
